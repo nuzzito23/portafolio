@@ -1,9 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
+* 
+::before,
+::after
+{
     box-sizing: border-box;
 }    
 
+ body {
+    background-image: url(portafolio.img.jpeg);
+    background-position: center;
+    background-size: cover;
+ }
+ 
 /* INICIO NAV  */
 
 #nav{
@@ -57,10 +64,11 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content:  center;
     text-align: justify;
-    background-color: aqua;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 
@@ -68,13 +76,6 @@
 #main-links-container{
     display: flex;
     flex-direction: column;
-}
-
-
-#main-imagen{
-    width: 70%;
-    height: 70%;
-    background-color: aqua;
 }
 
 /* FINAL MAIN */
